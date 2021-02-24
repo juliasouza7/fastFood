@@ -1,0 +1,103 @@
+body{
+	background-image: url(fundo.jpg);
+	font-family: "Century Gothic";
+}
+div#central{
+	background-color: #ffffff;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 1.5%;
+	line-height: 1.5;
+	border: 2px solid black; 
+}
+img#logo{
+	margin-left: 30%;
+	margin-top: 0.5%;
+	position: absolute;
+	height: 30%;
+	width: 20%;
+}
+header{
+	margin-top: 11%;
+	background-color: #b8b3b3;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	height:50px; 
+}
+nav{
+	position: absolute;
+	width: 20%;
+	margin-top: 0.7%;
+}
+nav#ladoesq{
+	margin-left: 5%;
+	text-align: center;
+}
+nav#ladodir{
+	margin-left: 57%;
+}
+a{
+	text-decoration: none;
+	font-size: 14pt;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 15px;
+	transition: 0.5s;
+}
+a:hover{
+	color: #000000;
+	font-weight: bolder;
+	transition: 0.5s;
+}
+section{
+	border: 3px dashed black;
+	margin-left: 4%;
+	width: 21%;
+	height: 34%;
+	margin-top: 5%;
+	position: absolute;
+}
+section#meio{
+	width: 21%;
+    margin-left: 29%;
+}
+section#dir{
+    margin-left: 54%;
+}
+section:hover{
+	border: 3px solid black;	
+}
+img.imgsec{
+	display: block;
+	position: relative;
+	margin-top: 2%;
+}
+h4{
+	background-color: #000000;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+}
+audio{
+	margin-top: 50%;
+	margin-left: 35%;
+	width: 30%;
+}
+article{
+	border-left: 3px solid black ;
+	border-right: 3px solid black ;
+	border-radius: 20px;
+	padding: 10px;
+	text-align: center;
+	font-style: italic;
+	margin-top: 27%;
+	width: 32%;
+}
+article#art1{
+	position: absolute;
+	margin-left: 4%;
+}
+article#art2{
+	position: absolute;
+	margin-left: 42%;
+}
